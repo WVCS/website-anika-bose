@@ -1,3 +1,38 @@
-body {
 
+      body {
+  background-color: #eeebd0;
+}
+h3 {
+  color: #8a2846;
+  font-size: 200%;
+  text-shadow: 2px 2px 5px #ebb3a9;
+}
+img {
+  width: 40%;
+}
+img:hover {
+   border: dotted #8a2846 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8a2846;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #eeebd0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #602437;
 }
